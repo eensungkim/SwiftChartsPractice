@@ -35,7 +35,6 @@ struct SalesSummaryChart: View {
                     .symbol(by: .value("City", series.city))
                 }
             }
-            Spacer(minLength: 500)
         }
         .padding(15)
     }
