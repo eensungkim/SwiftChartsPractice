@@ -17,6 +17,7 @@
 		8A58D3872BC8C75900C0D4F2 /* StackedBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D3862BC8C75900C0D4F2 /* StackedBarChart.swift */; };
 		8A58D38C2BC8F04F00C0D4F2 /* StylesDetailsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D38B2BC8F04F00C0D4F2 /* StylesDetailsChart.swift */; };
 		8A58D38E2BC8F1DF00C0D4F2 /* Pancakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D38D2BC8F1DF00C0D4F2 /* Pancakes.swift */; };
+		8A58D3922BC8F57F00C0D4F2 /* SalesChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D3912BC8F57F00C0D4F2 /* SalesChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8A58D3862BC8C75900C0D4F2 /* StackedBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedBarChart.swift; sourceTree = "<group>"; };
 		8A58D38B2BC8F04F00C0D4F2 /* StylesDetailsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesDetailsChart.swift; sourceTree = "<group>"; };
 		8A58D38D2BC8F1DF00C0D4F2 /* Pancakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pancakes.swift; sourceTree = "<group>"; };
+		8A58D3912BC8F57F00C0D4F2 /* SalesChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				8A58D38F2BC8F44400C0D4F2 /* Pancakes */,
+				8A58D3902BC8F54A00C0D4F2 /* Sales */,
 			);
 			path = "Hello Swift Charts";
 			sourceTree = "<group>";
@@ -123,6 +126,14 @@
 				8A58D38B2BC8F04F00C0D4F2 /* StylesDetailsChart.swift */,
 			);
 			path = Pancakes;
+			sourceTree = "<group>";
+		};
+		8A58D3902BC8F54A00C0D4F2 /* Sales */ = {
+			isa = PBXGroup;
+			children = (
+				8A58D3912BC8F57F00C0D4F2 /* SalesChart.swift */,
+			);
+			path = Sales;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A58D3922BC8F57F00C0D4F2 /* SalesChart.swift in Sources */,
 				8A58D38C2BC8F04F00C0D4F2 /* StylesDetailsChart.swift in Sources */,
 				8A58D3832BC8C5F200C0D4F2 /* ToyShapeExtension.swift in Sources */,
 				8A58D3812BC8BFCE00C0D4F2 /* BarChart.swift in Sources */,
