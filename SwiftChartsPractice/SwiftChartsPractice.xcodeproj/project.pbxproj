@@ -18,6 +18,7 @@
 		8A58D38C2BC8F04F00C0D4F2 /* StylesDetailsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D38B2BC8F04F00C0D4F2 /* StylesDetailsChart.swift */; };
 		8A58D38E2BC8F1DF00C0D4F2 /* Pancakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D38D2BC8F1DF00C0D4F2 /* Pancakes.swift */; };
 		8A58D3922BC8F57F00C0D4F2 /* SalesChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D3912BC8F57F00C0D4F2 /* SalesChart.swift */; };
+		8A58D3972BC8FED900C0D4F2 /* SalesSummaryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D3962BC8FED900C0D4F2 /* SalesSummaryChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8A58D38B2BC8F04F00C0D4F2 /* StylesDetailsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesDetailsChart.swift; sourceTree = "<group>"; };
 		8A58D38D2BC8F1DF00C0D4F2 /* Pancakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pancakes.swift; sourceTree = "<group>"; };
 		8A58D3912BC8F57F00C0D4F2 /* SalesChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesChart.swift; sourceTree = "<group>"; };
+		8A58D3962BC8FED900C0D4F2 /* SalesSummaryChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesSummaryChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				8A58D38F2BC8F44400C0D4F2 /* Pancakes */,
 				8A58D3902BC8F54A00C0D4F2 /* Sales */,
+				8A58D3942BC8FEB300C0D4F2 /* SalesSummary */,
 			);
 			path = "Hello Swift Charts";
 			sourceTree = "<group>";
@@ -134,6 +137,14 @@
 				8A58D3912BC8F57F00C0D4F2 /* SalesChart.swift */,
 			);
 			path = Sales;
+			sourceTree = "<group>";
+		};
+		8A58D3942BC8FEB300C0D4F2 /* SalesSummary */ = {
+			isa = PBXGroup;
+			children = (
+				8A58D3962BC8FED900C0D4F2 /* SalesSummaryChart.swift */,
+			);
+			path = SalesSummary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 				8A58D38C2BC8F04F00C0D4F2 /* StylesDetailsChart.swift in Sources */,
 				8A58D3832BC8C5F200C0D4F2 /* ToyShapeExtension.swift in Sources */,
 				8A58D3812BC8BFCE00C0D4F2 /* BarChart.swift in Sources */,
+				8A58D3972BC8FED900C0D4F2 /* SalesSummaryChart.swift in Sources */,
 				8A58D3872BC8C75900C0D4F2 /* StackedBarChart.swift in Sources */,
 				8A58D3722BC8BD2F00C0D4F2 /* ContentView.swift in Sources */,
 				8A58D3702BC8BD2F00C0D4F2 /* SwiftChartsPracticeApp.swift in Sources */,
