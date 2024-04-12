@@ -12,6 +12,7 @@
 		8A58D3742BC8BD3000C0D4F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A58D3732BC8BD3000C0D4F2 /* Assets.xcassets */; };
 		8A58D3772BC8BD3000C0D4F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A58D3762BC8BD3000C0D4F2 /* Preview Assets.xcassets */; };
 		8A58D37F2BC8BE4E00C0D4F2 /* ToyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D37E2BC8BE4E00C0D4F2 /* ToyShape.swift */; };
+		8A58D3812BC8BFCE00C0D4F2 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A58D3802BC8BFCE00C0D4F2 /* BarChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8A58D3732BC8BD3000C0D4F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A58D3762BC8BD3000C0D4F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A58D37E2BC8BE4E00C0D4F2 /* ToyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyShape.swift; sourceTree = "<group>"; };
+		8A58D3802BC8BFCE00C0D4F2 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8A58D37E2BC8BE4E00C0D4F2 /* ToyShape.swift */,
+				8A58D3802BC8BFCE00C0D4F2 /* BarChart.swift */,
 			);
 			path = "Creating a chart using Swift Charts";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A58D3812BC8BFCE00C0D4F2 /* BarChart.swift in Sources */,
 				8A58D3722BC8BD2F00C0D4F2 /* ContentView.swift in Sources */,
 				8A58D3702BC8BD2F00C0D4F2 /* SwiftChartsPracticeApp.swift in Sources */,
 				8A58D37F2BC8BE4E00C0D4F2 /* ToyShape.swift in Sources */,
